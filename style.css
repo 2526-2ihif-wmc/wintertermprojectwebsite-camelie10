@@ -6,7 +6,7 @@ body {
   padding: 0;
 }
 
-.Lora {
+h1,h2 {
   font-family: "Lora", serif;
 }
 .Ubuntu {
@@ -66,4 +66,26 @@ a:hover {
 
 h1 {
   text-align: center;
+}
+
+.small-carousel {
+  max-width: 70%;
+  margin: auto;
+}
+
+.small-carousel .carousel-item img {
+  height: 80vh; 
+  object-fit: contain; 
+  width: 100%;
+}
+
+.carousel-caption {
+  display: inline-block;
+  padding: 10px 15px 5px 15px; 
+  color: black;
+  background-color: rgba(255, 255, 255, 0.524);
+  left: 50%;
+  transform: translateX(-50%);
+  border-radius: 5%;
+  text-transform: uppercase;
 }
