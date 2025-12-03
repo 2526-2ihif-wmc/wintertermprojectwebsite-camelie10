@@ -1,18 +1,23 @@
 body {
   font-family: Arial, Helvetica, sans-serif;
   background-color: burlywood;
-  border: 1px solid red;
   font-size: 110%;
   margin: 0;
   padding: 0;
 }
 
-a {
-  color: saddlebrown;
-  text-decoration: none;
+.Lora {
+  font-family: "Lora", serif;
 }
+h3.Lora {
+  padding-top: 0.5rem;
+  padding-right: 2rem;
+  color: #fff;
+}
+
 a:hover {
-  background-color: rgba(226, 159, 93, 0.569);
+  background-color: rgba(255, 89, 0, 0.569);
+  border-radius: 20rem;
 }
 #nav {
   float: top;
@@ -31,22 +36,15 @@ a:hover {
   width: 100%;
   height: 100%;
   flex-wrap: wrap;
-
 }
 
-.special{
-  align-self:flex-end;
+.special {
+  align-self: flex-end;
 }
 
 .navbar {
   background-color: #981414;
   padding: 0.5rem 1rem;
-}
-
-.navbar-brand {
-  color: #fff;
-  font-weight: bold;
-  font-size: 1.5rem;
 }
 
 .nav-link {
@@ -55,31 +53,12 @@ a:hover {
 }
 
 .nav-link:hover {
-  color: #ffd700;
+  color: #741b1b;
+}
+.dropdown-item:active {
+  background-color: salmon;
 }
 
-.btn-search {
-  border-color: #fff;
-  color: #fff;
-}
-
-.btn-search:hover {
-  background-color: #fff;
-  color: #4a90e2;
-}
-
-/*
-#content {
-    overflow-y: scroll;
-    float: right;
-}
-*/
-
-img{
-  float: left;
-}
-
-h1{
+h1 {
   text-align: center;
 }
-
