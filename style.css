@@ -9,12 +9,20 @@ body {
 .Lora {
   font-family: "Lora", serif;
 }
+.Ubuntu {
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 550;
+}
+
 h3.Lora {
   padding-top: 0.5rem;
   padding-right: 2rem;
   color: #fff;
 }
-
+.Ubuntu a.nav-link {
+  color: #fff;
+  font-size: large;
+}
 a:hover {
   background-color: rgba(255, 89, 0, 0.569);
   border-radius: 20rem;
@@ -43,7 +51,7 @@ a:hover {
 }
 
 .navbar {
-  background-color: #981414;
+  background-color: #ad1b1b;
   padding: 0.5rem 1rem;
 }
 
@@ -52,9 +60,6 @@ a:hover {
   margin-right: 1rem;
 }
 
-.nav-link:hover {
-  color: #741b1b;
-}
 .dropdown-item:active {
   background-color: salmon;
 }
