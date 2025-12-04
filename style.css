@@ -19,7 +19,7 @@ h1,h2,h3,h4,h5 {
 
 .content h3{
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 3vw;
   padding-top: 1rem;
 }
 
@@ -29,10 +29,6 @@ h1,h2,h3,h4,h5 {
   padding: 1rem;
 }
 
-.title{
-  margin: 1rem;
-  font-weight: 800;
-}
 
 .Ubuntu {
   font-family: "Ubuntu", sans-serif;
@@ -106,14 +102,22 @@ a:hover {
   text-transform: uppercase;
 }
 
-img {
-  height: 30rem;
+.italian img {
   object-fit: contain;
-  width: 100%;
+  width: 80rem;
+  max-width: 50%;
   padding-bottom: 0.5rem;
 }
 
 .caption{
   font-family: Ubuntu, sans-serif;
   text-align: center;
+  text-align: left;
+  display: block;
+}
+
+.title {
+  margin: 1rem;
+  font-weight: 800;
+  font-size: clamp(1.8rem, 10vw, 4rem);
 }
