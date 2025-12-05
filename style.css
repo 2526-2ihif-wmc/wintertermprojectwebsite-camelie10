@@ -6,20 +6,25 @@ body {
   padding: 0;
   text-align: center;
 }
-.popular{
+
+.popular {
   font-size: 150%;
 }
 
-h1,h2,h3,h4,h5 {
+h1,
+h2,
+h3,
+h4,
+h5 {
   text-transform: uppercase;
   font-family: "Lora", serif;
   text-align: center;
   font-weight: 500;
 }
 
-.content h3{
+.content h3 {
   font-weight: 600;
-  font-size: 1.5rem;
+  font-size: 3vw;
   padding-top: 1rem;
 }
 
@@ -29,9 +34,10 @@ h1,h2,h3,h4,h5 {
   padding: 1rem;
 }
 
-.title{
+.title {
   margin: 1rem;
   font-weight: 800;
+  font-size: clamp(1.8rem, 10vw, 4rem);
 }
 
 .Ubuntu {
@@ -44,16 +50,18 @@ h3.Lora {
   padding-right: 2rem;
   color: #fff;
 }
+
 .Ubuntu a.nav-link {
   color: #fff;
   font-size: large;
 }
+
 a:hover {
   background-color: rgba(255, 89, 0, 0.569);
   border-radius: 20rem;
 }
+
 #nav {
-  float: top;
   background-color: rgb(60, 18, 0);
 }
 
@@ -106,14 +114,15 @@ a:hover {
   text-transform: uppercase;
 }
 
-img {
-  height: 50vh;
+.italian img {
   object-fit: contain;
-  width: 100%;
+  width: 80rem;
+  max-width: 50%;
   padding-bottom: 0.5rem;
 }
 
-.caption{
+.caption {
   font-family: Ubuntu, sans-serif;
-  text-align: center;
+  text-align: left;
+  display: block;
 }
