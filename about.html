@@ -1,14 +1,22 @@
 <!DOCTYPE html>
+<html>
 
 <head>
-
+    <title>About</title>
     <meta charset="UTF-8">
     <link rel="stylesheet" href="style.css">
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-
 </head>
 
 <body>
+    <style>
+        .content {
+            padding: 1em;
+        }
+        body{
+            background-color: burlywood;
+        }
+    </style>
     <div id="navbar"></div>
 
     <script>
@@ -17,8 +25,55 @@
             .then(data => document.getElementById("navbar").innerHTML = data);
     </script>
 
-    <h3>About</h3>
-    <p>This is a website which is all about food.</p>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+    <div class="content">
 
+        <h3>About this website</h3>
+
+        <p>Welcome to my website: a site for anyone who loves food, culture, and flavor. <br>
+            Here, I collect and share descriptions and pictures of famous foods from around the world. <br>
+            No recipes or complicated instructions, just pure appreciation for dishes that deserve to be seen and
+            celebrated.</p>
+
+        <p>This website is for:</p>
+        <ul type="square">
+            <li>Curious food lovers</li>
+            <li>People exploring new cuisines</li>
+            <li>Fans of iconic dishes and classics</li>
+            <li>Anyone who enjoys food</li>
+        </ul>
+        <p>From street food legends to fine dining favorites, <br>every post highlights
+            <b>
+                what the dish is, where it comes from, why it matters, and what makes it unique.
+            </b> <br>
+            Think of it like a museum of food, but cozier... and
+            tastier.
+        </p>
+
+        <p>What you will find here:</p>
+        <ol>
+            <li>High-quality pictures of famous foods</li>
+            <li>Clear simple descriptions</li>
+            <li>Sometimes fun facts</li>
+        </ol>
+
+    </div>
+    <p><br></p>
+    <div class="content">
+
+        <h4>Why I started this site</h4>
+        <p>I created this site because I believe food is one of the best ways to discover the world.
+            You can learn so much about a culture from what is on its plate and this site is my way of traveling through
+            flavor, celebrating iconic dishes, and sharing them with others who
+            care just as much.</p>
+        <p><br></p>
+        <p>Now, if you've read this far, I just wanna say: <br>
+            <strong>
+                Thanks for being here.
+            </strong>
+        </p>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+    </div>
 </body>
+
+</html>
