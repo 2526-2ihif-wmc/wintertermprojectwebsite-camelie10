@@ -1,7 +1,14 @@
-body {
-  padding: 1%;
+
+
+.carousel-caption p {
+  font-size: 1.3em;
+font-family: Ubuntu;
+text-align: center;
+padding-bottom: 0px;
 }
 
-.carousel-caption {
-  margin-bottom: 1rem;
+
+.content h3{
+  font-size: 1.45rem;
+  font-family: 'Lora', serif;
 }
