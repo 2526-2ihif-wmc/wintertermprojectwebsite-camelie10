@@ -12,8 +12,9 @@ body {
   font-weight: 540;
 }
 
-.content > ul {
-  display: inline-block;
+.ul {
+  margin-left: 45%;
+  text-align: left;
 }
 
 h1,
