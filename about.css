@@ -1,31 +1,26 @@
 .content {
-  padding: 1em;
-}
-
-body {
-  background-color: burlywood;
+    background-color: rgba(255, 239, 215, 0.612);
+    padding: 2rem;
+    margin: 2rem;
+    border-radius: 1rem;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+    text-align: left;
 }
 
 h2 {
-  font-weight: 500;
+    font-family: 'Lora', serif;
+    font-weight: 700;
+    position: relative;
+    padding-bottom: 0.5rem;
+    margin-bottom: 1rem;
 }
 
-.start {
-  display: flex;
-  justify-content: center;
-  min-height: 10rem;
-  flex-direction: column;
+ul, ol {
+    margin-left: 2rem;
 }
 
-.hi {
-  align-self: center;
-}
-
-ol,
-ul {
-  list-style-position: inside;
-}
-
-body content {
-  margin-bottom: 1rem;
+p {
+    font-family: 'Ubuntu', sans-serif;
+    line-height: 1.7;
+    margin-bottom: 1rem;
 }
