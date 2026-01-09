@@ -9,15 +9,33 @@
 </head>
 
 <body>
-    <div id="navbar"></div>
-    <script>
-        fetch("navbar.html")
-            .then(response => response.text())
-            .then(data => document.getElementById("navbar").innerHTML = data);
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
-
-    <h1 class="title">ITALIAN</h1>
+<nav class="navbar navbar-expand-lg Ubuntu">
+    <div class="container-fluid">
+        <h3 class="Lora">FOOD</h3>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+            aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
+                <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                        Popular
+                    </a>
+                    <ul class="dropdown-menu">
+                        <li><a class="dropdown-item" href="chinese.html">Chinese</a></li>
+                        <li><a class="dropdown-item" href="italian.html">Italian</a></li>
+                        <li><a class="dropdown-item" href="latin_american.html">Latin american</a></li>
+                        <li><a class="dropdown-item" href="indian.html">Indian</a></li>
+                    </ul>
+                </li>
+            </ul>
+        </div>
+    </div>
+</nav>
+<h1 class="title">ITALIAN</h1>
     <div class="content italian">
         <h2>Pizza</h2>
         <img src="images/italian/mozarellapizza.jpg" alt="pizza">
@@ -28,7 +46,7 @@
             But of course you can also just leave it as the iconic
             Margherita.
         </p>
-
+        
         <h2>Spaghetti Bolognese</h2>
         <img src="images/italian/spagettibolognese.webp" alt="spagettia">
         <p class="caption">Another absolute classic from Italian cuisine. <br>
@@ -38,15 +56,15 @@
             You can keep it traditional, add veggies, or swap the pasta type — but the classic version is always a
             winner.</p>
 
-        <h2>Tagliatelle</h2>
-        <img src="images/italian/tagliatelle.jpg" alt="">
-        <p class="caption">Tagliatelle comes from the Emilia-Romagna region and is loved for its perfect balance of
-            softness and bite.
-            It pairs amazing with creamy sauces, mushroom dishes, or the classic ragù — the wide noodles hold every bit
-            of flavor.
-            Whether you keep it simple or go all out, tagliatelle always feels like real Italian comfort food.</p>
-
-        <h2>Ravioli</h2>
+            <h2>Tagliatelle</h2>
+            <img src="images/italian/tagliatelle.jpg" alt="">
+            <p class="caption">Tagliatelle comes from the Emilia-Romagna region and is loved for its perfect balance of
+                softness and bite.
+                It pairs amazing with creamy sauces, mushroom dishes, or the classic ragù — the wide noodles hold every bit
+                of flavor.
+                Whether you keep it simple or go all out, tagliatelle always feels like real Italian comfort food.</p>
+                
+                <h2>Ravioli</h2>
         <img src="images/italian/ravioli.jpg" alt="">
         <p class="caption">
             An Italian classic that's basically pasta with a surprise inside.
@@ -54,15 +72,15 @@
             Each little pasta pocket can be stuffed with cheese, spinach, meat, or mushrooms, and they’re usually served
             with tomato sauce, butter and sage, or a creamy sauce.
         </p>
-
+        
         <h2>Gnocchi</h2>
         <img src="images/italian/gnocchipesto.jpg" alt="">
         <p class="caption">Gnocchi are small Italian dumplings made mainly from potatoes and flour, giving them a soft
             and slightly chewy texture.
             They originate from Northern Italy and are commonly served with sauces like tomato, pesto, butter and sage,
             or rich cream sauces that coat them well.</p>
-
-        <h2>Risotto</h2>
+            
+            <h2>Risotto</h2>
         <img src="images/italian/risotto.jpg" alt="">
         <p class="caption">Risotto is a traditional Italian rice dish made by slowly cooking short-grain rice in broth
             until it becomes creamy and rich.
@@ -78,21 +96,22 @@
             It originates from the Emilia-Romagna region.
             Traditional versions use ragù (a slow-cooked meat sauce), but variations with spinach, vegetables, or
             different cheeses are also really popular.</p>
-
-        <h2>Bruschetta</h2>
+            
+            <h2>Bruschetta</h2>
         <img src="images/italian/bruschetta.jpg" alt="">
         <p class="caption">Bruschetta is a traditional Italian appetizer made with grilled bread rubbed with garlic and
             topped with ingredients like fresh tomatoes, olive oil, basil, or cured meats.
             It originates from Central Italy and is popular for its fresh, simple flavors.
             Variations can include toppings such as roasted vegetables, cheeses, or spreads, but the classic tomato
             version remains the most well-known.</p>
-
-        <h2>Salad Caprese</h2>
-        <img src="images/italian/saladcaprese.jpg" alt="">
+            
+            <h2>Salad Caprese</h2>
+            <img src="images/italian/saladcaprese.jpg" alt="">
         <p class="caption">Caprese salad is a classic Italian dish made with fresh mozzarella, ripe tomatoes, and basil
             leaves, usually drizzled with olive oil and sometimes balsamic vinegar.
             It originates from the island of Capri in Southern Italy.
             The salad highlights simple, high-quality ingredients and is often served as an appetizer or side dish.</p>
-    </div>
+        </div>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
 </html>
