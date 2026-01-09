@@ -1,14 +1,31 @@
+.content {
+  padding: 1em;
+}
+
+body {
+  background-color: burlywood;
+}
+
+h2 {
+  font-weight: 500;
+}
+
 .start {
-    display: flex;
-    justify-content: center;
-    min-height: 10rem;
-    flex-direction: column;
+  display: flex;
+  justify-content: center;
+  min-height: 10rem;
+  flex-direction: column;
 }
 
-.hi{
-    align-self: center;
+.hi {
+  align-self: center;
 }
 
-ol, ul{
-    list-style-position: inside;
+ol,
+ul {
+  list-style-position: inside;
+}
+
+body content {
+  margin-bottom: 1rem;
 }
