@@ -2,11 +2,10 @@
 <html lang="en">
 
 <head>
-    <title>Latin american</title>
+    <meta charset="UTF-8">
+    <title>Latin American</title>
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
-      <link
-    href="https://fonts.googleapis.com/css2?family=Lora:ital,wght@0,400..700;1,400..700&family=Ubuntu:ital,wght@0,300;0,400;0,500;0,700;1,300;1,400;1,500;1,700&display=swap"
-    rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lora:wght@400..700&family=Ubuntu:wght@300..700&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
     <link rel="stylesheet" href="latin_american.css">
 </head>
@@ -15,23 +14,19 @@
     <nav class="navbar navbar-expand-lg Ubuntu">
         <div class="container-fluid">
             <h3 class="Lora">FOOD</h3>
-            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
-                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
                 <span class="navbar-toggler-icon" style="filter: invert(1);"></span>
             </button>
             <div class="collapse navbar-collapse" id="navbarNav">
-                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                <ul class="navbar-nav me-auto">
                     <li class="nav-item"><a class="nav-link" href="index.html">Home</a></li>
                     <li class="nav-item"><a class="nav-link" href="about.html">About</a></li>
                     <li class="nav-item dropdown">
-                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown"
-                            aria-expanded="false">
-                            Popular
-                        </a>
+                        <a class="nav-link dropdown-toggle" role="button" data-bs-toggle="dropdown">Popular</a>
                         <ul class="dropdown-menu">
                             <li><a class="dropdown-item" href="chinese.html">Chinese</a></li>
                             <li><a class="dropdown-item" href="italian.html">Italian</a></li>
-                            <li><a class="dropdown-item" href="latin_american.html">Latin american</a></li>
+                            <li><a class="dropdown-item" href="latin_american.html">Latin American</a></li>
                             <li><a class="dropdown-item" href="indian.html">Indian</a></li>
                         </ul>
                     </li>
@@ -39,76 +34,117 @@
             </div>
         </div>
     </nav>
+
     <h2 class="title">LATIN AMERICAN</h2>
 
     <div class="content">
 
         <div class="mexican">
             <h3 class="regions">MEXICAN</h3>
-
             <div class="grid">
-                <img class="A" src="images/latinamerican/tacos.jpg" alt="TACOS">
-                <img class="B" src="images/latinamerican/burritos.jpg" alt="Burritos">
-                <img class="C" src="images/latinamerican/nachos.jpg" alt="Nachos">
+                <div class="img-wrapper A">
+                    <img src="images/latinamerican/tacos.jpg" alt="Mexican tacos">
+                    <span class="badge bg-secondary">★ Easy</span>
+                </div>
+                <div class="img-wrapper B">
+                    <img src="images/latinamerican/burritos.jpg" alt="Mexican burritos">
+                    <span class="badge bg-secondary">★★ Advanced</span>
+                </div>
+                <div class="img-wrapper C">
+                    <img src="images/latinamerican/nachos.jpg" alt="Mexican nachos">
+                    <span class="badge bg-secondary">★ Easy</span>
+                </div>
+
                 <h4 class="A">Tacos</h4>
                 <h4 class="B">Burritos</h4>
                 <h4 class="C">Nachos</h4>
-                <p class="A">Soft tortillas with bold fillings</p>
-                <p class="B">Hearty wraps with rice and beans</p>
-                <p class="C">Crispy chips topped with cheese</p>
+
+                <p class="A">Soft tortillas filled with bold and flavorful ingredients</p>
+                <p class="B">Hearty wraps packed with rice, beans, and fillings</p>
+                <p class="C">Crispy chips topped with melted cheese and extras</p>
             </div>
         </div>
 
         <div class="argentinia">
             <h3 class="regions">ARGENTINIAN</h3>
-
             <div class="grid">
-                <img class="A" src="images/latinamerican/milanesa.jpg" alt="Milanesa">
-                <img class="B" src="images/latinamerican/empanadas.jpg" alt="Empanadas">
-                <img class="C" src="images/latinamerican/asado.jpg" alt="Asado">
+                <div class="img-wrapper A">
+                    <img src="images/latinamerican/milanesa.jpg" alt="Argentinian milanesa">
+                    <span class="badge bg-secondary">★★ Advanced</span>
+                </div>
+                <div class="img-wrapper B">
+                    <img src="images/latinamerican/empanadas.jpg" alt="Argentinian empanadas">
+                    <span class="badge bg-secondary">★★ Advanced</span>
+                </div>
+                <div class="img-wrapper C">
+                    <img src="images/latinamerican/asado.jpg" alt="Argentinian asado barbecue">
+                    <span class="badge bg-secondary">★★★ Hard</span>
+                </div>
+
                 <h4 class="A">Milanesa</h4>
                 <h4 class="B">Empanadas</h4>
                 <h4 class="C">Asado</h4>
+
                 <p class="A">Crispy breaded meat cutlet</p>
-                <p class="B">Stuffed pastries, baked or fried</p>
+                <p class="B">Stuffed pastries baked or fried</p>
                 <p class="C">Traditional smoky grilled meats</p>
             </div>
         </div>
 
         <div class="brazil">
             <h3 class="regions">BRAZILIAN</h3>
-
             <div class="grid">
-                <img class="A" src="images/latinamerican/acaibowl.jpg" alt="Acai bowl">
-                <img class="B" src="images/latinamerican/feijoada.webp" alt="Feijoada">
-                <img class="C" src="images/latinamerican/churrasco.jpg" alt="Churrasco">
+                <div class="img-wrapper A">
+                    <img src="images/latinamerican/acaibowl.jpg" alt="Brazilian acai bowl">
+                    <span class="badge bg-secondary">★ Easy</span>
+                </div>
+                <div class="img-wrapper B">
+                    <img src="images/latinamerican/feijoada.webp" alt="Brazilian feijoada stew">
+                    <span class="badge bg-secondary">★★★ Hard</span>
+                </div>
+                <div class="img-wrapper C">
+                    <img src="images/latinamerican/churrasco.jpg" alt="Brazilian churrasco">
+                    <span class="badge bg-secondary">★★ Advanced</span>
+                </div>
+
                 <h4 class="A">Açaí Bowl</h4>
                 <h4 class="B">Feijoada</h4>
                 <h4 class="C">Churrasco</h4>
-                <p class="A">Fresh fruit bowl with toppings</p>
-                <p class="B">Black bean and pork stew</p>
-                <p class="C">Juicy Brazilian grilled meats</p>
 
+                <p class="A">Fresh fruit bowl with toppings</p>
+                <p class="B">Rich black bean and pork stew</p>
+                <p class="C">Juicy Brazilian grilled meats</p>
             </div>
         </div>
+
         <div class="caribbean">
             <h3 class="regions">CARIBBEAN</h3>
-
             <div class="grid">
-                <img class="A" src="images/latinamerican/jerkchicken.jpg" alt="Jerk Chicken">
-                <img class="B" src="images/latinamerican/cubansandwich.jpg" alt="Cuban sandwich">
-                <img class="C" src="images/latinamerican/mofongo.jpg" alt="Mo fongo">
+                <div class="img-wrapper A">
+                    <img src="images/latinamerican/jerkchicken.jpg" alt="Jamaican jerk chicken">
+                    <span class="badge bg-secondary">★★ Advanced</span>
+                </div>
+                <div class="img-wrapper B">
+                    <img src="images/latinamerican/cubansandwich.jpg" alt="Cuban sandwich">
+                    <span class="badge bg-secondary">★ Easy</span>
+                </div>
+                <div class="img-wrapper C">
+                    <img src="images/latinamerican/mofongo.jpg" alt="Puerto Rican mofongo">
+                    <span class="badge bg-secondary">★★★ Hard</span>
+                </div>
+
                 <h4 class="A">Jerk Chicken</h4>
                 <h4 class="B">Cuban Sandwich</h4>
                 <h4 class="C">Mofongo</h4>
-                <p class="A">Spicy Jamaican grilled chicken</p>
+
+                <p class="A">Spicy grilled chicken with bold seasoning</p>
                 <p class="B">Pressed sandwich with pork and cheese</p>
-                <p class="C">Garlic plantains with savory fillings</p>
+                <p class="C">Garlic mashed plantains with savory fillings</p>
             </div>
         </div>
+
     </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
 </body>
-
 </html>
