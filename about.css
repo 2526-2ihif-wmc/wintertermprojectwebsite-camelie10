@@ -1,26 +1,75 @@
 .content {
-    background-color: rgba(255, 239, 215, 0.612);
-    padding: 2rem;
-    margin: 2rem;
-    border-radius: 1rem;
-    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
-    text-align: left;
+  background-color: rgba(255, 239, 215, 0.612);
+  padding: 2rem;
+  margin: 2rem;
+  border-radius: 1rem;
+  border-right: 6px solid #ad1b1b;
+  border-radius: 1rem;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2);
+  text-align: left;
 }
 
 h2 {
-    font-family: 'Lora', serif;
-    font-weight: 700;
-    position: relative;
-    padding-bottom: 0.5rem;
-    margin-bottom: 1rem;
+  font-family: "Lora", serif;
+  font-weight: 700;
+  position: relative;
+  padding-bottom: 0.5rem;
+  margin-bottom: 1rem;
 }
 
-ul, ol {
-    margin-left: 2rem;
+ul,
+ol {
+  margin-left: 2rem;
 }
 
 p {
-    font-family: 'Ubuntu', sans-serif;
-    line-height: 1.7;
-    margin-bottom: 1rem;
+  font-family: "Ubuntu", sans-serif;
+  line-height: 1.7;
+  margin-bottom: 1rem;
+}
+
+.pop-in {
+  animation: popIn 0.8s ease-out both;
+}
+
+@keyframes popIn {
+  0% {
+    opacity: 0;
+    transform: scale(0.92) translateY(25px);
+  }
+
+  60% {
+    opacity: 1;
+    transform: scale(1.04) translateY(-6px);
+  }
+
+  100% {
+    transform: scale(1) translateY(0);
+  }
+}
+
+.thank-you {
+  font-size: 1.3rem;
+  font-weight: 600;
+  color: #ad1b1b;
+  display: inline-block;
+  animation: wiggle 1.2s ease-in-out infinite;
+}
+
+@keyframes wiggle {
+  0% {
+    transform: rotate(0deg);
+  }
+  25% {
+    transform: rotate(2deg);
+  }
+  50% {
+    transform: rotate(-2deg);
+  }
+  75% {
+    transform: rotate(2deg);
+  }
+  100% {
+    transform: rotate(0deg);
+  }
 }

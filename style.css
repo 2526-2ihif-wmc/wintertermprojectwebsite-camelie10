@@ -104,7 +104,7 @@ a:hover {
 }
 
 .small-carousel .carousel-item img {
-  height: 80vh;
+  height: 70vh;
   object-fit: contain;
   width: 100%;
 }
@@ -131,4 +131,15 @@ a:hover {
   font-family: Ubuntu, sans-serif;
   text-align: left;
   display: block;
+}
+
+.medium-carousel {
+  max-width: 70%;
+  margin: auto;
+}
+
+.medium-carousel .carousel-item img {
+  height: 67vh;
+  object-fit: cover;
+  width: 100%;
 }
